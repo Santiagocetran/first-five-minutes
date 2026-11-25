@@ -1,0 +1,9 @@
+# First reviewed target: DevNet
+
+**Status: design target, not a run result.** [README at the reviewed commit](https://github.com/Santiagocetran/DevNet/blob/f687d9690cce4fa63b03c92c770505f27c6570ef/README.md) · [Setup guide at the same commit](https://github.com/Santiagocetran/DevNet/blob/f687d9690cce4fa63b03c92c770505f27c6570ef/Documentation/setup.md).
+
+**Maintainer outcome:** Starting in a clean Python 3.12 environment, follow the linked guide, run `dincli system init`, and verify that it created the config and cache directories and a configuration file with demo mode off. `dincli --version` is not a pass. Before execution, fix the expected paths and config predicate in the reviewed observer; confirm those artifacts did not already exist. Keep observer knowledge out of the newcomer session.
+
+**Documented path:** setup §§1–4: create/activate the virtual environment, download and install the specified wheel, verify installation, initialize. Preserve shell environment semantics across documented steps. The guide points to `dincli-0.2.0-py3-none-any.whl` on `InfiniteZeroFoundation/DevNet`'s moving `main`, not the pinned fork. Follow the actual link; record source URL, downloaded SHA-256, runtime and resolved dependency identities for each attempt. Do not silently swap in a local build or fork artifact. If bytes or dependencies change between runs, report the comparison as inconclusive.
+
+**Stop after local initialization.** Do not configure a network or wallet, generate keys, fund accounts, contact RPC or IPFS, or enter a Global Iteration. If a run unexpectedly requests credentials, stop. No global readiness claim follows from this local check. If the documented path works, publish a pass without an edit. For a failure-and-fix demonstration use a genuine historical case or a clearly labeled controlled fixture, never an invented DevNet finding.
