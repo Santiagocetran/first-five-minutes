@@ -13,4 +13,6 @@ DevNet is one candidate for the cross-repository exercise. Use its worked exampl
 
 **Before provisioning:** choose an approved nonproduction project, pin SDK/model/runtime, inspect available tools, cap time, model rounds and spend, and verify cleanup and egress rules. The dependency-free experiment can deny all networking. A documented install requires an approved download path and recorded artifact identities. Report unsupported access requirements explicitly.
 
-**Next work session:** write the offline receipt examples, then exercise documentation interpretation against contrasting quickstarts before wiring in a provider.
+**Verification status:** the offline suite and synthetic Docker demonstration exercise the implementation. A separately funded model and Vercel Sandbox attempt remains an operator milestone. See the [running guide](running.md).
+
+The [implementation plan](implementation.md) records the agent, model and environment decisions and the acceptance work for each stage.

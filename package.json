@@ -1,0 +1,26 @@
+{
+  "name": "first-five-minutes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Check a repository's documented first steps in a disposable environment.",
+  "bin": {
+    "first-five": "./bin/first-five.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/first-five.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@vercel/sandbox": "4.1.0",
+    "ai": "7.0.172",
+    "diff": "9.0.0",
+    "eve": "1.5.0",
+    "ipaddr.js": "2.3.0",
+    "semver": "7.7.3",
+    "zod": "4.6.7"
+  }
+}
