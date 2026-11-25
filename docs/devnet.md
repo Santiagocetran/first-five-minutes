@@ -1,8 +1,8 @@
-# First reviewed target: DevNet
+# Worked example: DevNet
 
 **Status: design target, not a run result.** [README at the reviewed commit](https://github.com/Santiagocetran/DevNet/blob/f687d9690cce4fa63b03c92c770505f27c6570ef/README.md) · [Setup guide at the same commit](https://github.com/Santiagocetran/DevNet/blob/f687d9690cce4fa63b03c92c770505f27c6570ef/Documentation/setup.md).
 
-**Maintainer outcome:** Starting in a clean Python 3.12 environment, follow the linked guide, run `dincli system init`, and verify that it created the config and cache directories and a configuration file with demo mode off. `dincli --version` is not a pass. Before execution, fix the expected paths and config predicate in the reviewed observer; confirm those artifacts did not already exist. Keep observer knowledge out of the newcomer session.
+**Candidate outcome from the setup guide:** Starting in a clean Python 3.12 environment, follow the linked guide, run `dincli system init`, and verify that it created the config and cache directories and a configuration file with demo mode off. `dincli --version` is not a pass. The agent must cite the guide for each expected effect and use only expectations the documentation establishes. Freeze that check before execution and confirm the artifacts did not already exist. This example serves as an evaluation reference and stays outside the intake workflow. Keep observer knowledge out of the newcomer session.
 
 **Documented path:** setup §§1–4: create/activate the virtual environment, download and install the specified wheel, verify installation, initialize. Preserve shell environment semantics across documented steps. The guide points to `dincli-0.2.0-py3-none-any.whl` on `InfiniteZeroFoundation/DevNet`'s moving `main`, not the pinned fork. Follow the actual link; record source URL, downloaded SHA-256, runtime and resolved dependency identities for each attempt. Do not silently swap in a local build or fork artifact. If bytes or dependencies change between runs, report the comparison as inconclusive.
 

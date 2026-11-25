@@ -1,5 +1,7 @@
 # First Five Minutes: can a newcomer follow this README?
 
+> **Historical feasibility note.** The fixture manifest, maintainer-defined outcome and fixed command below describe the original proposal. The current [product contract](docs/spec.md) defines repository-independent intake and documentation-derived checks. The bounded fixture experiment remains an infrastructure test.
+
 **Research decision · November 25, 2026.** Proceed to a separately approved, one-fixture feasibility test, not to a public repository scanner. The useful result is a maintainer-facing receipt: *at this revision, in this environment, this documented step produced this result*. A model can explain the first blocker; it must not invent the verdict, quietly repair the instructions, or try a second command. The organizer’s requirements and the SDK primitives are documented. No end-to-end result, five-minute latency, account entitlement or actual charge has been verified.
 
 ## Challenge fit and submission decision

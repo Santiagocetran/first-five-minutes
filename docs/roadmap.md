@@ -2,13 +2,15 @@
 
 | Order | Deliverable | Done when |
 |---|---|---|
-| 1 | Evidence contract and offline fixtures | An already-correct guide, a mistyped filename and a simulated platform failure produce distinct receipts. A zero exit code without the approved outcome never passes. |
-| 2 | Bounded eve + Sandbox experiment | With a separately approved account and budget, run one dependency-free reviewed step in a disposable VM. Capture its excerpt and actual output; verify the VM stops. Confirm eve cannot bypass the restricted tools. No second command to hide a failure. |
-| 3 | Terminal vertical slice | Maintainer selects a profile, states the outcome and approves the concrete observer before execution. Terminal and Markdown report agree; deterministic evidence survives a model error. |
-| 4 | DevNet profile and first baseline | Validate a Python 3.12 image, observer paths and a narrowly permitted artifact-download path. Keep credentials outside the VM. Record wheel and dependency identities. Stop after local init. A pass is a finished result; an infrastructure failure is not a docs finding. |
-| 5 | Diagnosis and independent replay | On a known docs failure, produce a docs-only suggestion and replay it in a clean VM and session. Negative controls: changed wheel, unchanged broken README and carried-over state must not yield a verified fix. |
-| 6 | Challenge demo | Show a real receipt, not a scripted verdict. Redact logs; label any synthetic fixture. Demonstrate the useful outcome and why startup alone was insufficient. Confirm the entry rules before submitting. |
+| 1 | Evidence contract and offline fixtures | A correct guide, a mistyped filename and a simulated platform failure produce distinct receipts. A zero exit code with a missing promised outcome never passes. |
+| 2 | Documentation-driven intake | Given a repository and revision, the agent follows README links, cites the first useful promise, and proposes the steps, prerequisites and observable check. An ambiguous guide yields a cited uncertainty. The user supplies no goal or profile. |
+| 3 | Bounded eve + Sandbox experiment | With a separately approved account and budget, execute one dependency-free reviewed step in a disposable VM. Capture its excerpt and actual output, verify restricted tool access, and confirm teardown. |
+| 4 | Terminal workflow across repositories | Two substantially different repositories use the same intake, approval, execution and reporting flow without per-repo runner changes or hand-written profiles. Exercise different outcome types, such as local file creation and a served page. Terminal and Markdown verdicts agree, including when model summarization fails. |
+| 5 | Diagnosis and independent replay | On a known docs failure, propose a docs-only edit and replay in a fresh VM and session. Changed artifacts, unchanged broken instructions and carried-over state cannot yield a verified fix. |
+| 6 | Challenge demo | Show a real receipt and the useful outcome. Label synthetic fixtures, redact logs and confirm entry rules before submitting. |
 
-**Before provisioning:** choose an approved nonproduction project, pin SDK/model/runtime, inspect available tools, cap time, model rounds and spend, check cleanup and egress rules. The offline spike's deny-all networking cannot be reused unchanged for the DevNet wheel install. If install traffic cannot be isolated and identified, leave that case unsupported rather than testing on the host.
+DevNet is one candidate for the cross-repository exercise. Use its worked example to evaluate what the agent derives from the guide. Keep the example's expected answer out of the agent's inputs. A baseline pass is a finished result.
 
-**Next work session:** start at item 1. Write the pass, blocker and inconclusive receipts as acceptance examples before wiring in a provider. No live accounts are required for this step.
+**Before provisioning:** choose an approved nonproduction project, pin SDK/model/runtime, inspect available tools, cap time, model rounds and spend, and verify cleanup and egress rules. The dependency-free experiment can deny all networking. A documented install requires an approved download path and recorded artifact identities. Report unsupported access requirements explicitly.
+
+**Next work session:** write the offline receipt examples, then exercise documentation interpretation against contrasting quickstarts before wiring in a provider.
